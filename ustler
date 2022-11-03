@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public  class Main {
+  public static void main(String[] args) {
+      
+     
+  
+    
+    int n;
+    int k;
+
+    Scanner scan = new Scanner(System.in);
+    System.out.println("ÜSSÜNÜ ALMAK İSTEDİĞİNİZ SAYIYI GİRİNİZ");
+    n = scan.nextInt();
+
+    Scanner scan1 = new Scanner(System.in);
+    System.out.println("ÜS DEĞERİNİ GİRİNİZ");
+    k = scan.nextInt();
+            int toplam=1;
+           for (int i =1; i<=k ; i++) {
+                  
+      
+      
+                    toplam*=n;
+                           
+      System.out.println(toplam);
+
+     
+      
+    }
+   
+  }
+  
+}
+
+    
